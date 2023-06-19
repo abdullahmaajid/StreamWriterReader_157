@@ -53,10 +53,11 @@ int main() {
 
 		if (isifile)
 		{
-			cout << "Tidak ada character yang ditulis"" << endl;
+			cout << "Tidak ada character yang ditulis" << endl;
 		}
 	}
 	// jika tidak ditemukan file maka akan menampilkan ini
 	else cout << "unable to opened file";
 	return 0;
 }
+
