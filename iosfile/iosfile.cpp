@@ -21,7 +21,7 @@ int main() {
 		getline(cin, baris);
 		// loop akan berhenti jika anda memasukkan karakter exit
 		if (baris == "exit") break;
-		// mendapatkan setiap karakter dalam satu baris
-		getline(cin, baris);
+		// menulis dan memasukkan nilai dari 'baris' ke dalam file
+		outfile << baris << endl;
 	}
 }
