@@ -11,7 +11,7 @@ int main() {
 	// menunjuk ke sebuah nama file
 	outfile.open("contohfile.txt");
 
-	cout << "Menulis File, '\q' untuk keluar" << endl;
+	cout << "*Menulis dalam File*, '\exit' untuk keluar" << endl;
 
 	//unlimited loop untuk menulis
 	while (true) {
@@ -20,5 +20,6 @@ int main() {
 		getline(cin, baris);
 		// loop akan berhenti jika anda memasukkan karakter exit
 		if (baris == "exit") break;
+		// 
 	}
 }
