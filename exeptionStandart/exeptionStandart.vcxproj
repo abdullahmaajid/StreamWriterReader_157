@@ -29,10 +29,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a4745777-9f88-47a4-8733-b3b5f571af6b}</ProjectGuid>
-    <RootNamespace>manualexeption</RootNamespace>
+    <ProjectGuid>{0e97a3e3-2af3-4c11-a1c3-4c3dd59c48b3}</ProjectGuid>
+    <RootNamespace>exeptionStandart</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>manual exception</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -183,7 +182,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="manual exception.cpp" />
+    <ClCompile Include="exeptionStandart.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

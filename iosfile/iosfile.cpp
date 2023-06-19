@@ -39,19 +39,19 @@ int main() {
 	//jika file ada maka
 	if (infile.is_open())
 	{
-		bool isFileEmpty = true;
+		bool isifile = true;
 		// melakukan perulangan setiap baris
 		while (getline(infile, baris))
 		{
 				// dan tampilkan disini
 				cout << baris << '\n';
-				isFileEmpty = false;
+				isifile = false;
 		}
 
 		// tutup file tersebut setelah selesai
 		infile.close();
 
-		if (isFileEmpty)
+		if (isifile)
 		{
 			cout << "File tidak ada isinya" << endl;
 		}

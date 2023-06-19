@@ -42,14 +42,22 @@ int main() {
 	//jika file ada maka
 	if (infile.is_open())
 	{
+		bool isifile = true;
 		// melakukan perulangan setiap baris
 		while (getline(infile, baris))
 		{
 			// dan tampilkan disini
 			cout << baris << '\n';
+			isifile = false;
 		}
+
 		// tutup file tersebut setelah selesai
 		infile.close();
+
+		if (isifile)
+		{
+			cout << "File tidak ada isinya" << endl;
+		}
 	}
 	// jika tidak ditemukan file maka akan menampilkan ini
 	else cout << "unable to opened file";
