@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-	cout << "Awal Program" << endl; // penanda 1
+	cout << "Program Dimulai" << endl; // penanda 1
 	try {
 		array<int, 3> data = { 1,2,3 };
 		// pesan array dengan integer 3 element
@@ -19,5 +19,8 @@ int main()
 		cout << e.what() << endl;
 		// akan dieksekusi karena array data hanya memiliki 3 element
 	}
+	cout << "Program Berakhir" << endl;
+	// penanda 2 bahwa program berjalan sampai akhir walau terjadi error
 	return 0;
 }
+

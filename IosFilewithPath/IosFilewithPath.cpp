@@ -56,7 +56,7 @@ int main() {
 
 		if (isifile)
 		{
-			cout << "File tidak ada isinya" << endl;
+			cout << "Tidak ada character yang ditulis" << endl;
 		}
 	}
 	// jika tidak ditemukan file maka akan menampilkan ini
@@ -64,4 +64,3 @@ int main() {
 	return 0;
 }
 
-//C:\coba membuat file
