@@ -16,11 +16,12 @@ int main() {
 
 	// unlimited loop untuk menulis
 	while (true) {
-		cout << "* ";
+		cout << " ";
 		// mendapatkan setiap karakter dalam satu baris
 		getline(cin, baris);
 		// loop akan berhenti jika anda memasukkan karakter exit
 		if (baris == "exit") break;
+		
 		// menulis dan memasukkan nilai dari 'baris' ke dalam file
 		outfile << baris << endl;
 	}
@@ -38,14 +39,22 @@ int main() {
 	//jika file ada maka
 	if (infile.is_open())
 	{
+		bool isFileEmpty = true;
 		// melakukan perulangan setiap baris
 		while (getline(infile, baris))
 		{
-			// dan tampilkan disini
-			cout << baris << '\n';
+				// dan tampilkan disini
+				cout << baris << '\n';
+				isFileEmpty = false;
 		}
+
 		// tutup file tersebut setelah selesai
 		infile.close();
+
+		if (isFileEmpty)
+		{
+			cout << "File tidak ada isinya" << endl;
+		}
 	}
 	// jika tidak ditemukan file maka akan menampilkan ini
 	else cout << "unable to opened file";

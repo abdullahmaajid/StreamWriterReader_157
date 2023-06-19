@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iosfile", "iosfile\iosfile.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IosFilewithPath", "IosFilewithPath\IosFilewithPath.vcxproj", "{4B30A146-98E3-4031-B045-B641E6F676B7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "manual exeption", "manual exeption\manual exeption.vcxproj", "{A4745777-9F88-47A4-8733-B3B5F571AF6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|arm64 = Debug|arm64
@@ -41,6 +43,18 @@ Global
 		{4B30A146-98E3-4031-B045-B641E6F676B7}.Release|x64.Build.0 = Release|x64
 		{4B30A146-98E3-4031-B045-B641E6F676B7}.Release|x86.ActiveCfg = Release|Win32
 		{4B30A146-98E3-4031-B045-B641E6F676B7}.Release|x86.Build.0 = Release|Win32
+		{A4745777-9F88-47A4-8733-B3B5F571AF6B}.Debug|arm64.ActiveCfg = Debug|arm64
+		{A4745777-9F88-47A4-8733-B3B5F571AF6B}.Debug|arm64.Build.0 = Debug|arm64
+		{A4745777-9F88-47A4-8733-B3B5F571AF6B}.Debug|x64.ActiveCfg = Debug|x64
+		{A4745777-9F88-47A4-8733-B3B5F571AF6B}.Debug|x64.Build.0 = Debug|x64
+		{A4745777-9F88-47A4-8733-B3B5F571AF6B}.Debug|x86.ActiveCfg = Debug|Win32
+		{A4745777-9F88-47A4-8733-B3B5F571AF6B}.Debug|x86.Build.0 = Debug|Win32
+		{A4745777-9F88-47A4-8733-B3B5F571AF6B}.Release|arm64.ActiveCfg = Release|arm64
+		{A4745777-9F88-47A4-8733-B3B5F571AF6B}.Release|arm64.Build.0 = Release|arm64
+		{A4745777-9F88-47A4-8733-B3B5F571AF6B}.Release|x64.ActiveCfg = Release|x64
+		{A4745777-9F88-47A4-8733-B3B5F571AF6B}.Release|x64.Build.0 = Release|x64
+		{A4745777-9F88-47A4-8733-B3B5F571AF6B}.Release|x86.ActiveCfg = Release|Win32
+		{A4745777-9F88-47A4-8733-B3B5F571AF6B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
