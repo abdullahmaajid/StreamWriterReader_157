@@ -12,7 +12,7 @@ int main() {
 	outfile.open("contohfile.txt");
 
 	// cara menulis agar tidak salah
-	cout << "*Menulis dalam File*, '\exit' untuk keluar" << endl;
+	cout << "Tulis Apa Saja, jika ingin keluar ketik 'exit'" << endl;
 
 	// unlimited loop untuk menulis
 	while (true) {
